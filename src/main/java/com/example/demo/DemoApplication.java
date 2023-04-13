@@ -16,10 +16,10 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@Bean
-	public StudentService studentservice(){
-		return new StudentService();
-	}
+	// @Bean
+	// public StudentService studentservice(){
+	// 	return new StudentService();
+	// }
 	
 
 }
