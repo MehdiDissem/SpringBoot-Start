@@ -19,7 +19,7 @@ public class Student {
         sequenceName="student_sequence",
         allocationSize = 1
     )
-    @GeneratedValue(
+    @GeneratedValue(_d
         strategy = GenerationType.SEQUENCE,
         generator = "student_sequence"
     )
